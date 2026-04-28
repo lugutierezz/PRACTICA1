@@ -1,15 +1,6 @@
 # PRACTICA1
 Proyecto de Machine Learning aplicado a la prediccion de impago de prestamos (LendingClub dataset, 2007-2017). El objetivo es construir un modelo que, dado un conjunto de variables de un prestamo, prediga si el prestatario pagara o entrara en impago (Charged Off).
 
-Estructura del proyecto
-
-src/
-├── preprocessing/
-│   └── base_preprocessing.py      # Clase BasePreprocess (fit/transform)
-└── filtering/
-│       └── base_filtering.py          # Clase BaseFiltering (fit/transform)
-
-
 A lo largo del trabajo se han evaluados tres modelos sobre una misma base de datos variables_withExperts.xlsx .
 
 Para dicho estudio se ha entrenado un pipeline end- to-end de Machile Learning, aplicando el modelo seguido en clase, pero con las siguientes modificaciones: 
